@@ -29,7 +29,7 @@ Telecom sector has become one of the most aggressive sectors in India, especiall
     - Reason - May be due to poor service delivery (slow internet/poor maintenance)
     - Sol - Improve the service quality in this area eg prompt greivance redressal
 
-## Model Creation
+## Technical Details
 - Logistic Regression has been used to create the churn model
 - Its performance came out to be better than other algorithms eg RandomForestCLassifier, KNN
 - Approach
@@ -38,7 +38,7 @@ Telecom sector has become one of the most aggressive sectors in India, especiall
   3. Checking Multicollinearity 
   4. Checking correlation 
   5. Feature selection 
-  6. Model development
+  6. Model Creation
   7. Performance 
 
 ### 1. Data cleaning
@@ -89,7 +89,7 @@ Result:
     - 'PhoneService_Yes', 'gender_Male', 'PhoneService_Yes', 
     - 'MultipleLines_Yes', 'OnlineBackup_Yes', 'StreamingTV_Yes', 'StreamingMovies_Yes'
 
-### 6. Model developemnt
+### 6. Model Creation
 Logistics regression was used for this classification problem as its much faster and has low computation cost. Hyperparameter tuning was done using RandomizedSearchCV to enhance performance of model
 
 ### 7. Performance 
