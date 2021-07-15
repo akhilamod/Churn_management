@@ -35,7 +35,7 @@ Telecom sector has become one of the most aggressive sectors in India, especiall
 - The model took 20 input parameters that comprised of tenure, monthly charges, different services that consumer availed, etc.
 - Its performance was compared with other algorithms like Random Forest Classifier 
 - Approach
-  1. Data cleaning - removing NaNs, 
+  1. Data cleaning - removing NaNs, outliers
   2. Encoding - converting categorical variable into numerical values
   3. Checking Multicollinearity - to find relationship amongst independent variables 
   4. Checking correlation - to find level of impact an independent variable has over output
