@@ -99,9 +99,15 @@ Logistics regression was used for this classification problem as its much faster
 - Hence the objective was to increase Recall value while keeping the precision value stable
 - Over-sampling the train dataset helped increase Recall though at a slight cost of precision (f1_score remained stable)
 - Final Result
-    - Accuracy = 77.8%
-    - Recall = 70%
-    - Precission = 57%
-    - F1_score = 63%
+    - Accuracy = 77.5%
+    - Recall = 71%
+    - Precission = 58%
+    - F1_score = 64%
+
+### Comparison with RandomForestClssifier algorithm
+- The performance of logistic regression was compared with Random Forest Classifier using ROC curve 
+- Result: Logistic regression outperformed Random Forest Classifier
+
+![image](https://user-images.githubusercontent.com/86396532/125811903-55446f4d-d4c8-4361-be7f-4dad534fc631.png)
 
 
