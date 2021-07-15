@@ -1,13 +1,14 @@
 # Churn_management
-Predict cusotmer churn at a Telecom Company
-
-## Introduction
-This project consists of a machine learning model for predicting customer churn at a fictious wireless telecom company and use insights from the model to develop an incentive plan for enciting would-be churners to remain with the company. The model took 20 input parameters that comprised of tenure, monthly charges, different services that consumer availed, etc.  
 
 ## Motivation
 Telecom sector has become one of the most aggressive sectors in India, especially after the entry of Reliance Jio in 2016. Persence of multiple companies with competitive pricing has given several options to the consumers to choose from. Hence it becomes important for companies to monitor and predict attrition / churn rate in order to have a proactive and responsive plan of action to retain a significant market share. This is where churn prediction model fits in.
 
-## Key Observations and Incentive plan
+## Objective
+- Create a Machine Learning model that predicts customer churn at a fictious Telecom Company
+- Identify the key reasons behind a customer leaving the company
+- Develop an incentive plan for enciting would-be churners to remain with the company
+
+## Reasons behind attrition and Incentive plan
 
 ![image](https://user-images.githubusercontent.com/86396532/124375714-40451480-dcc1-11eb-8801-fd691dd4cf9c.png)
 
@@ -31,7 +32,8 @@ Telecom sector has become one of the most aggressive sectors in India, especiall
 
 ## Technical Details
 - Logistic Regression has been used to create the churn model
-- Its performance came out to be better than other algorithms eg RandomForestCLassifier, KNN
+- The model took 20 input parameters that comprised of tenure, monthly charges, different services that consumer availed, etc.
+- Its performance was compared with other algorithms like Random Forest Classifier 
 - Approach
   1. Data cleaning
   2. Encoding  
